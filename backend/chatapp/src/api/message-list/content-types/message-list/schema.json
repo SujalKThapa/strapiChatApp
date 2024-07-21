@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "message_lists",
+  "info": {
+    "singularName": "message-list",
+    "pluralName": "message-lists",
+    "displayName": "messageList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sender": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}
